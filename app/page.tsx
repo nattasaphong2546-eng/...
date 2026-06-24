@@ -55,7 +55,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
             {/* Internal Staff Card */}
             <Card className="group hover:shadow-lg transition-all duration-300 hover:border-primary/50 cursor-pointer">
-              <Link href="/login" className="block">
+              <Link href="/dashboard" className="block">
                 <CardHeader className="text-center pb-4">
                   <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
                     <Users className="w-8 h-8 text-primary" />
@@ -71,7 +71,7 @@ export default function HomePage() {
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </Button>
                   <p className="text-xs text-muted-foreground text-center mt-3">
-                    ต้องใช้บัญชีผู้ใช้งานในการเข้าสู่ระบบ
+                    เข้าใช้งานระบบได้ทันที
                   </p>
                 </CardContent>
               </Link>
